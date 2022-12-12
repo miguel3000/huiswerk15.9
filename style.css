@@ -1,10 +1,8 @@
-/*HEADER*/
 #header {
     background-color: aqua;
     width: 100%;
     min-height: 75px;
     max-height: 150px;
-
 }
 
 
@@ -12,7 +10,6 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 14px;
     color: black;
-
 }
 
 ul a {
@@ -36,16 +33,37 @@ li:hover {
     background-color: lightgreen;
     border-left: 2px solid lightgreen;
     border-right: 1px solid lightgreen;
-
 }
 
 li.active {
     background-color: rgb(230, 144, 238);
     border-left: 2px rgb(230, 144, 238);
     border-right: 1px rgb(230, 144, 238);
-
 }
 
 h1 {
     margin-left: 50px;
+}
+
+#giraffe {
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+h3 {
+    text-shadow: 2px 2px 2px rgb(208, 163, 208);
+}
+
+h5 {
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
+
+#footer {
+    background-color: aqua;
+    width: 100%;
+    min-height: 75px;
+    max-height: 150px;
+
 }
