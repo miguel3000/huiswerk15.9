@@ -1,0 +1,51 @@
+/*HEADER*/
+#header {
+    background-color: aqua;
+    width: 100%;
+    min-height: 75px;
+    max-height: 150px;
+
+}
+
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: black;
+
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    min-height: 75px;
+    max-height: 150px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid aqua;
+    border-right: 1px solid aqua;
+    background-color: olive;
+}
+
+li:hover {
+    background-color: lightgreen;
+    border-left: 2px solid lightgreen;
+    border-right: 1px solid lightgreen;
+
+}
+
+li.active {
+    background-color: rgb(230, 144, 238);
+    border-left: 2px rgb(230, 144, 238);
+    border-right: 1px rgb(230, 144, 238);
+
+}
+
+h1 {
+    margin-left: 50px;
+}
