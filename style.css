@@ -13,10 +13,6 @@ body {
     background-color: rgb(190, 255, 233);
     text-align: center;
 }
-p {
-    text-align: left;
-}
-
 div {
     background-color: grey; margin: 0 10%;
 }
