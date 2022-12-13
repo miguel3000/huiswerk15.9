@@ -1,84 +1,92 @@
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
-
 .header {
     background-color: aqua;
     width: 100%;
     min-height: 75px;
     max-height: 150px;
+    padding-left: 15px;
 }
-
-
 body {
     font-family: Verdana, sans-serif;
     font-size: 14px;
     color: black;
+    margin: auto;
+    background-color: rgb(190, 255, 233);
 }
-
 ul a {
     color: white;
     text-decoration: none;
 }
-
 li {
     display: inline-block;
-    min-height: 75px;
-    max-height: 150px;
+    height: 25px;
     width: 100px;
+    margin-top: 20px;
     text-align: center;
     color: white;
     border-left: 2px solid aqua;
     border-right: 1px solid aqua;
     background-color: olive;
 }
-
 li:hover {
     background-color: lightgreen;
     border-left: 2px solid lightgreen;
     border-right: 1px solid lightgreen;
 }
-
 li.active {
     background-color: rgb(230, 144, 238);
     border-left: 2px rgb(230, 144, 238);
     border-right: 1px rgb(230, 144, 238);
 }
-
 h1 {
     margin-left: 50px;
 }
-
 #giraffe {
     min-width: 200px;
-    max-width: 1000px;
+    max-width: 600px;
 }
-
 h3 {
     text-shadow: 2px 2px 2px rgb(208, 163, 208);
+    margin-left: 50px;
 }
-
 h5 {
     padding-left: 50px;
     padding-top: 15px;
-
+}
+table {
+    text-align: left;
+    min-width: 50%;
+    max-width: 650px;
+    margin-left: 50px;
+    border-style: solid;
 }
 
+input[type="text"],
+input[type="text"],
+input[type="e-mail"],
+textarea, 
+button {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    box-shadow: inset 1px 1px 1px aqua;
+}
+button:active {
+    background-color: aqua;
+    color: black;
+    border-radius: 1px;
+    box-shadow: inset 2px 2px 5px rgb(208, 163, 208);
+}
+textarea {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(176, 255, 255);
+}
 .footer {
     background-color: aqua;
     width: 100%;
     min-height: 75px;
     max-height: 150px;
-
+    padding-left: 15px;
 }
