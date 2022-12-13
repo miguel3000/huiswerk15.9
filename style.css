@@ -3,7 +3,6 @@
     width: 100%;
     min-height: 75px;
     max-height: 150px;
-    padding-left: 5px;
 }
 
 body {
@@ -14,14 +13,18 @@ body {
     background-color: rgb(190, 255, 233);
     text-align: center;
 }
-
 p {
-    text-align: left
+    text-align: left;
 }
 
-ul a {
+div {
+    background-color: grey; margin: 0 10%;
+}
+
+ul, a {
     color: white;
     text-decoration: none;
+    padding: 0px;
 }
 
 li {
@@ -69,6 +72,7 @@ table {
     max-width: 650px;
     margin: auto;
     border-style: solid;
+    background-color: rgb(176, 255, 255);
 }
 
 input[type="text"],
@@ -102,5 +106,4 @@ textarea {
     width: 100%;
     min-height: 75px;
     max-height: 150px;
-    padding-left: 5px;
 }
