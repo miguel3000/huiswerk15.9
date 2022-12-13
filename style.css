@@ -43,11 +43,6 @@ li.active {
     border-left: 2px rgb(230, 144, 238);
     border-right: 1px rgb(230, 144, 238);
 }
-
-h1 {
-    text-align: center;
-}
-
 #giraffe {
     display: block;
     margin-left: auto;
@@ -57,13 +52,11 @@ h1 {
 
 h3 {
     text-shadow: 2px 2px 2px rgb(208, 163, 208);
-    text-align: center;
 }
 
 h5 {
     padding-top: 15px;
     padding-left: 15px;
-    text-align: center;
 }
 
 table {
